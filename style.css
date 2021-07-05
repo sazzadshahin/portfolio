@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
+    margin: 0;
 }
 .nav img {
     height: 40px;
@@ -39,6 +40,7 @@ nav{
 .header{
     padding-top:100px;
     display: flex;
+    background-image:url("image/top-banner.png")
 }
 h2{
     color: darkred;
@@ -49,15 +51,28 @@ h2{
 }
 .half-width{
     width: 50%;
-    padding-left: 20%;
+    padding-left: 10%;
 }
 .half-width img{
     width: 60%;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 .button{
     text-decoration: none;  
     background-color: darksalmon;
     padding: 10px 40px;
     border-radius: 5px;
+}
+.dream-area{
+    padding-top: 100px;
+    display: flex;
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);;
+    padding: 10px 50px;
+    border-radius: 4px;
 }
